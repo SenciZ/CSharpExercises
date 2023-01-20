@@ -3,7 +3,7 @@ namespace CSharpExercises
 {
 	public class SwapNumbers
 	{
-		public static void SwapNumbersClass()
+		public static void SwapNumbersPrint()
 		{
 			Console.WriteLine("Enter your first number;");
 			int firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -11,7 +11,7 @@ namespace CSharpExercises
 			int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 			Console.WriteLine("Would you like to swap numbers? Y / N");
-			string? acceptedSwap = Console.ReadLine();
+            string? acceptedSwap = Console.ReadLine();
 
 			int temporaryNum;
 
