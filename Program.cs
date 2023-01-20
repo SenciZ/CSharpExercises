@@ -1,18 +1,17 @@
-﻿using System;
-using CSharpExercises;
-using static CSharpExercises.HelloWorldClass;
-using static CSharpExercises.SwapNumbers;
+﻿using CSharpExercises;
 
 public class Program
 {
     public static void Main()
     {
         //Class that returns a string of "Hello World" and we print it from our Main
-        Console.WriteLine(HelloWorld());
+        Console.WriteLine(HelloWorldClass.HelloWorld());
 
         //Class that prints it's own string of "Hello World"
-        HelloWorldPrint();
+        HelloWorldClass.HelloWorldPrint();
 
-        SwapNumbers.SwapNumbersClass();
+        SwapNumbers.SwapNumbersPrint();
+
+        MultiplicationTable.MultiplicationTablePrint();
     }
 }

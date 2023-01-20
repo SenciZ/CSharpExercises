@@ -1,7 +1,6 @@
-﻿using System;
-namespace CSharpExercises
+﻿namespace CSharpExercises
 {
-	public class SwapNumbers
+    public class SwapNumbers
 	{
 		public static void SwapNumbersPrint()
 		{
