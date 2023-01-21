@@ -17,6 +17,12 @@ public class Program
         //MultiplicationTable.MultiplicationTablePrint();
 
         //Write a C# Sharp program that takes four numbers as input to calculate and print the average
-        AverageCalculation.CalculateAverage();
+        //AverageCalculation.CalculateAverage();
+
+        //Write a C# program that takes in a number of degrees in Celsius and calculates its equivalent in Fahrenheit and Kelvin
+        //TemperatureCalculator.CelsiusToFandK();
+
+        //Write a C# program remove specified a character from a non-empty string using index of a character.
+        CharacterManipulation.RemoveChar("TestData", 3);
     }
 }

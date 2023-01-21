@@ -5,7 +5,7 @@ namespace CSharpExercises
 	{
 		public static void CalculateAverage()
 		{
-			int numberOne, numberTwo, numberThree, numberFour;
+			float numberOne, numberTwo, numberThree, numberFour;
 
 			Console.WriteLine("Enter the first number out of four that you wish to average?");
 			numberOne = Convert.ToInt32(Console.ReadLine());
