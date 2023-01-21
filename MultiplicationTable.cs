@@ -18,6 +18,10 @@ namespace CSharpExercises
 			}
 
 			Console.WriteLine("You entered " + numberToMultiply);
+			for(int i = 0; i <= 10; i++)
+            {
+				Console.WriteLine(numberToMultiply * i);
+            };
 
 		}
 	}
