@@ -28,5 +28,8 @@ public class Program
         /*Write a C# program to create a new string from a given string (length 1 or more ) with the first character added at the front and back.
         The quick brown fox jumps over the lazy dog.  --->>  TThe quick brown fox jumps over the lazy dog.T */
         CharacterManipulation.AddFirstAndLast("TestData");
+
+        //Write a C# program to check two given integers and return true if one is negative and one is positive.
+        NumberComparison.PosNegNumbers(0, 0);
     }
 }
