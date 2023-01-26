@@ -23,6 +23,10 @@ public class Program
         //TemperatureCalculator.CelsiusToFandK();
 
         //Write a C# program remove specified a character from a non-empty string using index of a character.
-        CharacterManipulation.RemoveChar("TestData", 3);
+        //CharacterManipulation.RemoveChar("TestData", 3);
+
+        /*Write a C# program to create a new string from a given string (length 1 or more ) with the first character added at the front and back.
+        The quick brown fox jumps over the lazy dog.  --->>  TThe quick brown fox jumps over the lazy dog.T */
+        CharacterManipulation.AddFirstAndLast("TestData");
     }
 }
