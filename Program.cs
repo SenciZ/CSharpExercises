@@ -40,5 +40,9 @@ public class Program
         of the difference if the first number is greater than second number.*/
         //NumberCalculations.AbsoluteDifferenceValue(55, 35);  // 40;
         //NumberCalculations.AbsoluteDifferenceValue(35, 55);  // 20;
+
+        //Write a C# program to create a new string from a given string where the first and last characters will change their
+        CharacterManipulation.ChangeFirstLast("python");
+        CharacterManipulation.ChangeFirstLast2("python");
     }
 }
