@@ -38,7 +38,7 @@ public class Program
 
         /*Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value
         of the difference if the first number is greater than second number.*/
-        NumberCalculations.AbsoluteDifferenceValue(55, 35);  // 40;
-        NumberCalculations.AbsoluteDifferenceValue(35, 55);  // 20;
+        //NumberCalculations.AbsoluteDifferenceValue(55, 35);  // 40;
+        //NumberCalculations.AbsoluteDifferenceValue(35, 55);  // 20;
     }
 }
