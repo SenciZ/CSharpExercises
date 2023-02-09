@@ -27,9 +27,18 @@ public class Program
 
         /*Write a C# program to create a new string from a given string (length 1 or more ) with the first character added at the front and back.
         The quick brown fox jumps over the lazy dog.  --->>  TThe quick brown fox jumps over the lazy dog.T */
-        CharacterManipulation.AddFirstAndLast("TestData");
+        //CharacterManipulation.AddFirstAndLast("TestData");
 
         //Write a C# program to check two given integers and return true if one is negative and one is positive.
-        NumberComparison.PosNegNumbers(0, 0);
+        //NumberComparison.PosNegNumbers(-1, 0);
+
+        //Write a C# program to compute the sum of two given integers, if two values are equal then return the triple of their sum.
+        //NumberCalculations.SumOrTriple(2,3);
+        //NumberCalculations.SumOrTriple(2,2);
+
+        /*Write a C# program to get the absolute value of the difference between two given numbers. Return double the absolute value
+        of the difference if the first number is greater than second number.*/
+        NumberCalculations.AbsoluteDifferenceValue(55, 35);  // 40;
+        NumberCalculations.AbsoluteDifferenceValue(35, 55);  // 20;
     }
 }
